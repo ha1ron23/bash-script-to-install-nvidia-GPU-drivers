@@ -25,7 +25,7 @@ sudo pacman -S --needed base-devel git && git clone https://archlinux.org && cd 
 
 ### 1. **Download the script:**
 ```bash
-curl -L -O 'https://github.com/ha1ron23/bash-script-to-install-nvidia-GPU-drivers/releases/download/NVIDIA/nvidia_install.sh'
+curl -L -O 'https://github.com/ha1ron23/bash-script-to-install-nvidia-GPU-drivers/releases/download/NVIDIA-V2/nvidia_install.sh'
 ```
 
 ### 2. Run the installer
