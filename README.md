@@ -5,7 +5,9 @@ In this version, I have set up a common installation script that will install th
 > [!IMPORTANT]
 > **1.** You must have **yay** or **paru** installed, as this guide is specifically for Arch and Arch-based distributions.
 > 
-> **2.** Make sure you have linux-headers (or linux-zen-headers, etc.) installed for your current kernel before running the script.
+> **2.** If you already have the linux-headers for your distribution, use the V1 script!!!
+> 
+> **3.** Make sure you have linux-headers (or linux-zen-headers, etc.) installed for your current kernel before running the script.
 
 ## Requirements
 
