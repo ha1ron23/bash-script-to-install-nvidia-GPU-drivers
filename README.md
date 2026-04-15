@@ -4,6 +4,7 @@ In this version, I have set up a common installation script that will install th
 
 > [!IMPORTANT]
 > You must have **yay** or **paru** installed, as this guide is specifically for Arch and Arch-based distributions.
+> Make sure you have linux-headers (or linux-zen-headers, etc.) installed for your current kernel before running the script.
 
 ## Requirements
 
@@ -53,4 +54,5 @@ To remove the drivers installed by this script, use:
 sudo pacman -Rs nvidia-[your_version]xx-utils nvidia-[your_version]xx-dkms
 ```
 
-### Note: Make sure you have linux-headers (or linux-zen-headers, etc.) installed for your current kernel before running the script.
+## License
+This project is licensed under the **MIT License**. You are free to use, modify, and distribute it.
