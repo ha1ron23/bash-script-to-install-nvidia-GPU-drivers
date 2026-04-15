@@ -6,7 +6,7 @@ In this version, I have set up a common installation script that will install th
 
 ### 1. **Download the script:**
 ```bash
-curl -L -O [https://github.com](https://github.com/ha1ron23/bash-script-to-install-nvidia-GPU-drivers/releases/download/NVIDIA/nvidia_install.sh)
+curl -L -O 'https://github.com/ha1ron23/bash-script-to-install-nvidia-GPU-drivers/releases/download/NVIDIA/nvidia_install.sh'
 ```
 
 ### 2. Run the installer
