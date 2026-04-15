@@ -1,2 +1,39 @@
-# bash-script-to-install-nvidia-GPU-drivers
-and it is only for arch-based system
+# Arch Linux NVIDIA Quick Install 
+
+In this version, I have set up a common installation script that will install the NVIDIA GPU drivers of your choice (based on the version you pick)
+
+## Quick Start
+
+### 1. **Download the script:**
+```bash
+curl -L -O [https://github.com](https://github.com/ha1ron23/bash-script-to-install-nvidia-GPU-drivers/releases/download/NVIDIA/nvidia_install.sh)
+```
+
+### 2. Run the installer
+```bash
+chmod +x nvidia_install.sh
+./nvidia_install.sh
+```
+
+### How it works
+The script automates the installation of two core packages from AUR:
+
+    nvidia-[version]xx-utils
+    nvidia-[version]xx-dkms
+
+When prompted, simply enter the version number you need (e.g., 550, 560, or 580)
+  
+### Verification
+After the installation finishes, the script will automatically run:
+```bash
+nvidia-smi
+```
+If you see the GPU status table, your drivers are correctly installed and recognized
+
+### Uninstallation
+To remove the drivers installed by this script, use:
+```bash
+sudo pacman -Rs nvidia-[your_version]xx-utils nvidia-[your_version]xx-dkms
+```
+
+### Note: Make sure you have linux-headers (or linux-zen-headers, etc.) installed for your current kernel before running the script.
