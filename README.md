@@ -1,6 +1,23 @@
-# Arch Linux NVIDIA Quick Install 
+# Arch Linux NVIDIA Quick Install
 
-In this version, I have set up a common installation script that will install the NVIDIA GPU drivers of your choice (based on the version you pick)
+In this version, I have set up a common installation script that will install the NVIDIA GPU drivers of your choice (based on the version you pick).
+
+> [!IMPORTANT]
+> You must have **yay** or **paru** installed, as this guide is specifically for Arch and Arch-based distributions.
+
+## Requirements
+
+If you don't have an AUR helper, install one of them:
+
+**To install yay:**
+```bash
+sudo pacman -S --needed base-devel git && git clone https://archlinux.org && cd yay && makepkg -si
+```
+**To install paru:**
+```bash
+sudo pacman -S --needed base-devel git && git clone https://archlinux.org && cd paru && makepkg -si
+```
+
 
 ## Quick Start
 
