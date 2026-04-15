@@ -3,8 +3,9 @@
 In this version, I have set up a common installation script that will install the NVIDIA GPU drivers of your choice (based on the version you pick).
 
 > [!IMPORTANT]
-> You must have **yay** or **paru** installed, as this guide is specifically for Arch and Arch-based distributions.
-> Make sure you have linux-headers (or linux-zen-headers, etc.) installed for your current kernel before running the script.
+> **1.** You must have **yay** or **paru** installed, as this guide is specifically for Arch and Arch-based distributions.
+
+> **2.** Make sure you have linux-headers (or linux-zen-headers, etc.) installed for your current kernel before running the script.
 
 ## Requirements
 
